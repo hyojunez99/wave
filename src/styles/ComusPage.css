@@ -1,0 +1,54 @@
+#comus-page {
+  height: 100vh;
+  .page-view {
+    height: 100%;
+    overflow: hidden;
+    .page-list {
+      height: 100%;
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+}
+/* --- 각각페이지 설정 --- */
+.page {
+  padding: 10rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  flex: 0 0 100vw;
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    .top {
+      p:nth-child(1) {
+        color: #333;
+        line-height: 1.5;
+        white-space: pre-wrap;
+      }
+      p:nth-child(2) {
+        margin-top: 2rem;
+        font-weight: bolder;
+      }
+    }
+    .bottom {
+      p {
+        color: #2d3ebd;
+        font-weight: bolder;
+        font-size: 2rem;
+      }
+      h2{
+        margin: 1rem 0;
+        font-size: 4rem;
+      }
+    }
+  }
+  img {
+    width: 50%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+  }
+}

@@ -1,0 +1,93 @@
+header {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  min-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+/* 메인메뉴에 마우스를 올렸을 때 sub-menu가 있으면 서브메뉴 보이기 */
+nav:has(.main-menu:hover .sub-menu) .sub-menu {
+  height: 300px;
+  opacity: 1;
+}
+nav:has(.main-menu:hover .sub-menu)::before {
+  height: 300px;
+  border-top: 2px solid #ddd;
+}
+nav {
+  &::before {
+    content: "";
+    position: absolute;
+    top: calc(100px - 8px);
+    left: 0;
+    width: 100vw;
+    height: 0;
+    background-color: #fff;
+    border-top: 2px solid transparent;
+    transition: 0.3s;
+  }
+  > ul {
+    display: flex;
+    .main-menu {
+      padding: 2rem 1rem;
+      flex: 0 0 150px;
+      font-size: 1.1rem;
+      position: relative;
+      text-align: center;
+      border-bottom: 2px solid transparent;
+      transition: 0.3s;
+      &:has(.sub-menu):hover {
+        border-bottom: 2px solid #2b5bf3;
+      }
+      /* &:hover {
+        border-bottom: 2px solid #2b5bf3;
+      } */
+      &:hover > .sub-menu {
+        background-color: #e0eafd;
+      }
+      .sub-menu {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        top: calc(100% + 2px);
+        left: 0;
+        text-align: left;
+        background-color: #fff;
+        transition: 0.3s;
+        li {
+          padding: 0.5rem 0;
+          &:hover > a {
+            color: #2b5bf3;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* --- select-lang --- */
+.select-lang {
+  select {
+    border: none;
+    background-color: none;
+    outline: none;
+    option {
+      background-color: #fff;
+    }
+  }
+}

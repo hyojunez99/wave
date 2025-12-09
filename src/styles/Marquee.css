@@ -1,0 +1,19 @@
+#marquee {
+  position: fixed;
+  top: 70%;
+  z-index: 10;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+    li {
+      flex: 1;
+      border: 1px solid #ccc;
+      border-radius: 4rem;
+      background-color: #fff;
+      padding: 2rem;
+      box-shadow: 2px 2px 20px #ccc;
+    }
+  }
+}
