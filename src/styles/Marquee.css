@@ -1,7 +1,10 @@
 #marquee {
-  position: fixed;
-  top: 70%;
+  position: absolute;
+  top: 50%;
+  left: 0;
   z-index: 10;
+  padding-right: 4rem;
+  width: max-content; /* 컨텐츠 사이즈에 맞춰 width를 재설정 */
   ul {
     display: flex;
     justify-content: space-around;

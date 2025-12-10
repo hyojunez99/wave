@@ -1,8 +1,23 @@
+import { Outlet } from "react-router-dom";
 
 const About = () => {
+  const menus = [
+    "사업개요",
+    "컨슈머 커머스",
+    "셀러 커머스",
+    "크로스보더 커머스",
+  ];
   return (
-    <div>About</div>
-  )
-}
+    <div id="about">
+      <h2>사업영역</h2>
+      <ul>
+        {menus.map((item) => {
+          return <li>{item}</li>;
+        })}
+      </ul>
+      <Outlet />
+    </div>
+  );
+};
 
-export default About
+export default About;

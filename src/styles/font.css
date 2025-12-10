@@ -72,3 +72,13 @@
 body {
   font-family: "Pretendard", sans-serif;
 }
+/* --- PC 기본 폰트 --- */
+html {
+  font-size: 16px;
+}
+/* --- 테블릿 이하일 때 768px --- */
+@media all and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}

@@ -2,12 +2,12 @@ const navData = [
   {
     id: 1,
     title: "회사소개",
-    link: "/",
+    link: "/info",
     subMenu: [
-      { title: "연혁", link: "" },
-      { title: "글로벌 네트워크", link: "" },
-      { title: "찾아오시는 길", link: "" },
-      { title: "제휴제안", link: "" },
+      { title: "연혁", link: "/info" },
+      { title: "글로벌 네트워크", link: "/info#page-1" },
+      { title: "찾아오시는 길", link: "/info#page-2" },
+      { title: "제휴제안", link: "/info#page-3" },
       { title: "CI", link: "" },
     ],
   },
@@ -16,7 +16,7 @@ const navData = [
     title: "사업영역",
     link: "/about",
     subMenu: [
-      { title: "사업개요", link: "/about/summary" },
+      { title: "사업개요", link: "/about" },
       { title: "컴슈머 커머스", link: "/about/consumer" },
       { title: "셀러 커머스", link: "/about/seller" },
       { title: "크로스보더 커머스", link: "/about/crossborder" },

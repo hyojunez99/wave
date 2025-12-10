@@ -4,6 +4,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import videoData from "../assets/video/main_video.mp4";
 import "../styles/MainVideo.css";
 import { useRef } from "react";
+import Marquee from "./Marquee";
+
 // 플러그인 등록
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -43,6 +45,7 @@ const MainVideo = () => {
           <source src={videoData} type="video/mp4" />
         </video>
       </div>
+      <Marquee />
     </section>
   );
 };

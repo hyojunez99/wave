@@ -17,11 +17,43 @@
       line-height: 2;
       .text-wrap {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        img{
+        gap: 1rem;
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .mobile-br{
+            display: none;
+          }
+        }
+        img {
           width: 0;
           transform: scale(0);
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 768px) {
+  #clip-text {
+    .mask-layer {
+      .text-content {
+        width: 70%;
+        word-break: keep-all;
+        .text-wrap {
+          flex-direction: column;
+          div {
+            flex-wrap: wrap;
+            .mobile-br {
+              display: block;
+              content: '';
+              width: 40%;
+            }
+          }
         }
       }
     }
