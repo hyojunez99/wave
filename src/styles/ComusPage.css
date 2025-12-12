@@ -20,6 +20,8 @@
   gap: 5rem;
   flex: 0 0 100vw;
   .left {
+    padding: 5rem 0;
+    font-size: 1.3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -43,12 +45,12 @@
       }
       h2 {
         margin: 1rem 0;
-        font-size: 4rem;
+        font-size: 5.5rem;
       }
     }
   }
   img {
-    width: 50%;
+    width: 35%;
     aspect-ratio: 1/1;
     object-fit: contain;
   }
@@ -71,6 +73,11 @@
     }
     .left {
       width: 100%;
+      .bottom {
+        h2 {
+          font-size: 3rem;
+        }
+      }
     }
     img {
       width: 100%;

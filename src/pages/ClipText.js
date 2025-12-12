@@ -71,8 +71,7 @@ const ClipText = () => {
             </div>
           </div>
           <p>
-            시너지 극대화에 <br className="mobile-br" />
-            최선을 다하고 있습니다.
+            시너지 극대화에 최선을 다하고 있습니다.
           </p>
         </div>
       </div>

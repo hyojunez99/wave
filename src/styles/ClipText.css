@@ -13,6 +13,7 @@
     font-weight: bolder;
     clip-path: inset(100% 100% 100% 100%);
     .text-content {
+      font-weight: 800;
       text-align: center;
       line-height: 2;
       .text-wrap {
