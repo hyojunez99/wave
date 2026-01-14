@@ -1,6 +1,6 @@
 import "./styles/reset.css";
 import "./styles/font.css";
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import MainLayout from "./layout/MainLayout";
 import Wave from "./pages/Wave";
 import About from "./pages/About";
