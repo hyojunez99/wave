@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Wave (ConnectWave Clone)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 한 줄 요약
+커넥트웨이브(ConnectWave) 공식 웹사이트를 React 기반 SPA로 구현한 클론 프로젝트로, 라우팅 구조와 애니메이션을 활용해 서비스 정보 흐름을 재현했습니다.
 
-## Available Scripts
+## 📅 진행 기간
+- 개인 프로젝트  
+- (진행 기간 추후 기입)
 
-In the project directory, you can run:
+## 🔑 주요 기능
 
-### `npm start`
+### 반응형 웹 구현
+- 데스크탑·태블릿·모바일 환경에 맞춰 레이아웃과 콘텐츠가 자연스럽게 변경되도록 구현했습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### GSAP 기반 애니메이션
+- 스크롤 및 요소 진입 시 애니메이션을 적용해 콘텐츠 흐름과 시각적 몰입도를 높였습니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 무한 캐러셀 구현
+- 콘텐츠가 끊기지 않고 순환되는 무한 캐러셀 UI를 구현해 메인 비주얼 영역을 구성했습니다.
 
-### `npm test`
+## 🛠️ 기술 스택
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
+- React 19
+- React Router DOM v7
 
-### `npm run build`
+### Styling
+- styled-components
+- CSS Reset
+- Font CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Animation
+- GSAP
+- @gsap/react
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Deploy
+- GitHub Pages (gh-pages)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📘 배운 점
 
-### `npm run eject`
+- **React SPA 구조에 대한 이해**  
+  단일 페이지 애플리케이션에서 라우팅과 레이아웃 구조가 어떻게 구성되는지 직접 구현하며 이해할 수 있었습니다.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **공식 사이트를 참고한 클론 개발 경험**  
+  실제 서비스 사이트를 분석하고 구조를 따라 구현하며, UI 구성과 정보 배치 방식에 대한 이해를 높일 수 있었습니다.
