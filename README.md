@@ -24,7 +24,6 @@
 
 - 배포 링크: [ScrollWave](https://hyojunez99.github.io/wave/)  
 - GitHub: [Repository Link](https://github.com/hyojunez99/wave.git)  
-- PDF: 없음
 
 ---
 
