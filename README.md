@@ -14,27 +14,44 @@
 
 ---
 
+## 개발 인원
+
+- 개인 프로젝트
+
+---
+
+## 배포 / GitHub
+
+- 배포 링크: [ScrollWave](https://hyojunez99.github.io/wave/)  
+- GitHub: [Repository Link](https://github.com/hyojunez99/wave.git)  
+- PDF: 없음
+
+---
+
 ## 주요 기능
 
-- GSAP 기반 애니메이션 구현
-- 스크롤 흐름에 따른 콘텐츠 전환
-- 무한 캐러셀(Infinite Carousel) 구현
+- GSAP 기반 스크롤 인터랙션 애니메이션 구현
+- 콘텐츠 흐름에 맞춘 무한 캐러셀(Infinite Carousel) UI 구현
 
 ---
 
 ## 기술 스택
 
-- React
-- CSS3
-- GSAP
+- Frontend: React.js, CSS3, GSAP
 
 ---
 
-## 배운 점
+## 담당 역할
+
+- 개인 프로젝트로 전체 기획, 디자인, 개발 및 애니메이션 구현 담당
+
+---
+
+## 배운 점 / 인사이트
 
 ### GSAP을 활용한 스크롤 기반 애니메이션 구현
 
-GSAP와 ScrollTrigger를 사용해  
+GSAP과 ScrollTrigger를 사용해  
 스크롤 위치에 따라 요소가 등장하고 전환되도록 구현하며,  
 **애니메이션 타이밍과 화면 흐름의 관계**를 이해할 수 있었습니다.
 
